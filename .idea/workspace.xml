@@ -2,32 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cf055af-9616-49ae-96c9-04d0f60f7a92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/SpringRestApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/advice/ExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/advice/exception/CUserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/MessageConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/controller/v1/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/model/response/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/model/response/ListResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/model/response/SingleResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/repo/UserJpaRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/service/ResponseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/exception_en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/exception_ko.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/helloworld.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/advice/exception/CAuthenticationEntryPointException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/advice/exception/CEmailSigninFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/security/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/security/CustomAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/config/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/controller/exception/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/controller/v1/SignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/service/security/CustomUserDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/SpringRestApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/SpringRestApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/advice/ExceptionAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/advice/ExceptionAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/controller/v1/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/controller/v1/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/entity/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/repo/UserJpaRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rest/api/repo/UserJpaRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/i18n/exception_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/i18n/exception_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/i18n/exception_ko.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/i18n/exception_ko.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/api/SpringRestApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/SpringRestApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/api/advice/ExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/advice/ExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/api/controller/v1/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/controller/v1/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/api/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/api/repo/UserJpaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/api/repo/UserJpaRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/exception_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/exception_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/exception_ko.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/exception_ko.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
